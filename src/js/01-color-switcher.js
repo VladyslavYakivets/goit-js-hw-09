@@ -16,7 +16,7 @@ function changeColor() {
 };
 
 function onStart() {
-timerId = setInterval(getBgColor, 1000);
+timerId = setInterval(changeColor, 1000);
 
 startBtn = setAttribute('disabled')
 };
